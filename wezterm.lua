@@ -25,8 +25,8 @@ end
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
---config.color_scheme = 'AdventureTime'
-config.window_background_opacity = 0.7
+config.color_scheme = 'Adventure'
+config.window_background_opacity = 0.85
 
 -- and finally, return the configuration to wezterm
 return config
