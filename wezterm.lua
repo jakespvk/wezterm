@@ -3,9 +3,6 @@ local wezterm = require 'wezterm'
 
 -- This table will hold the configuration.
 local config = {
-    font = wezterm.font 'VictorMono-Medium',
-    font_size = 12.0,
-    enable_tab_bar = false,
 }
 
 config.keys = {
@@ -25,8 +22,11 @@ end
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = 'Adventure'
+--config.color_scheme = 'Adventure'
 config.window_background_opacity = 0.85
+--config.font = wezterm.font 'VictorMono-Medium',
+config.font_size = 12.0,
+config.enable_tab_bar = false,
 
 -- and finally, return the configuration to wezterm
 return config
