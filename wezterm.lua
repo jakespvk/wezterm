@@ -22,9 +22,9 @@ end
 
 -- For example, changing the color scheme:
 config.color_scheme = '3024 (base16)'
-config.window_background_opacity = 0.85
+config.window_background_opacity = 0.6
 --config.font = wezterm.font 'VictorMono-Medium'
-config.font_size = 12.0
+config.font_size = 14.0
 config.enable_tab_bar = false
 
 -- and finally, return the configuration to wezterm
