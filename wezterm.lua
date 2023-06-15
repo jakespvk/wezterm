@@ -21,7 +21,12 @@ end
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = '3024 (base16)'
+--config.color_scheme = 'Abernathy'
+config.color_scheme = 'GitHub Dark'
+--config.color_scheme = 'GruvboxDarkHard'
+--config.color_scheme = 'GruvboxDark'
+
+
 config.window_background_opacity = 0.6
 --config.font = wezterm.font 'VictorMono-Medium'
 config.font_size = 16.0
