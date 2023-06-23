@@ -27,9 +27,8 @@ config.color_scheme = 'GitHub Dark'
 --config.color_scheme = 'GruvboxDark'
 
 
-config.window_background_opacity = 0.8
-config.font = wezterm.font 'Fira Code'
---config.font = wezterm.font 'JetBrains Mono'
+config.window_background_opacity = 0.6
+config.font = wezterm.font 'Agave Nerd Font'
 config.font_size = 16.0
 config.enable_tab_bar = false
 
