@@ -27,11 +27,10 @@ config.color_scheme = 'GitHub Dark'
 --config.color_scheme = 'GruvboxDark'
 
 
-config.window_background_opacity = 0.6
-config.font = wezterm.font 'Agave Nerd Font'
+config.window_background_opacity = 0.92
+config.font = wezterm.font 'Iosevka Slab'
 config.font_size = 16.0
 config.enable_tab_bar = false
 
 -- and finally, return the configuration to wezterm
 return config
-
