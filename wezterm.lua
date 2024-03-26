@@ -27,8 +27,8 @@ config.color_scheme = 'Snazzy (Gogh)'
 --config.color_scheme = 'GruvboxDarkHard'
 
 
-config.window_background_opacity = 0.92
-config.font = wezterm.font 'Iosevka Nerd Font'
+config.window_background_opacity = 0.95
+config.font = wezterm.font('Iosevka SS11', {weight='Light'})
 config.font_size = 16
 config.enable_tab_bar = false
 
