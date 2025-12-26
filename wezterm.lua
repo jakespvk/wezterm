@@ -1,8 +1,7 @@
 local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
-
-config.enable_wayland = false
+config.enable_wayland = true
 -- config.keys = {
 --     { key = 't', mods = 'CTRL', action = wezterm.action.ActivateTabRelative(1) },
 --     { key = '1', mods = 'CTRL', action = wezterm.action.ActivateTab(0) },
@@ -11,7 +10,7 @@ config.enable_wayland = false
 -- }
 -- config.debug_key_events = true
 -- config.enable_kitty_keyboard = true
-config.color_scheme = 'Snazzy (Gogh)'
+-- config.color_scheme = 'Snazzy (Gogh)'
 -- config.color_scheme = 'Abernathy'
 -- config.color_scheme = 'GitHub Dark'
 -- config.color_scheme = 'Gruvbox dark, soft (base16)'
@@ -19,8 +18,8 @@ config.color_scheme = 'Snazzy (Gogh)'
 config.cursor_thickness = '1pt'
 config.max_fps = 250
 config.window_background_opacity = 0.97
-config.font = wezterm.font('Iosevka', { weight = 'Regular' })
-config.font_size = 16
+config.font = wezterm.font('Iosevka Nerd Font Mono')
+config.font_size = 13
 --config.dpi = 196.0
 --config.enable_tab_bar = false
 config.hide_tab_bar_if_only_one_tab = true
@@ -29,6 +28,7 @@ config.tab_bar_at_bottom = true
 config.colors = {
     -- background = '#32302f', -- gruvbox material
     -- background = '#26233a', -- rose pine
+    background = '#222222',
     tab_bar = {
         -- The color of the strip that goes along the top of the window
         -- (does not apply when fancy tab bar is in use)
